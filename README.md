@@ -18,6 +18,8 @@ valid items:
 - `chr`: dumps CHR-ROM to stdout.
 - `chr:<num>`: dumps one CHR-ROM bank to stdout. Fails if the identified mapper isn't known to support CHR-ROM bank switching.
 
+The size of banks depends on the identified mapper. As a rule of thumb, if the mapper supports multiple different bank sizes, the smallest size is considered.
+
 ## Supported mappers
 
 See [nes.cc](./nes.cc).
